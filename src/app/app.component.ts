@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-maps';
+ 
+   lat = 18.4484969;
+   lng = 79.121254;
+  mapCenter = { lat:18.4484969, lng:79.121254 }; 
+  mapZoom = 15; 
+
+
 }
